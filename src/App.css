@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
 :root {
   --baseyellow: #ec0;
   --lightyellow: #ffd;
+  --calcmono: 'Source Code Pro', monospace;
 }
 
 .spacer {
@@ -26,8 +29,22 @@
   color: #000;
 }
 
+/* HOMEPAGE */
+
+.scalculator {
+  padding: 20px;
+}
+
+.scalculator h2 {
+  margin-top: 0;
+  text-align: center;
+  color: var(--baseyellow);
+  font-size: 5vh;
+}
+
 /* COMPONENTS */
 
+/* contentbox */
 .contentbox {
   color: #fff;
   margin: 20px;
@@ -44,4 +61,65 @@
 
 .contentbox ul{
   margin-top: 5px;
+}
+
+/* scientific calculator */
+.scalc {
+  margin: auto;
+  padding: 20px;
+  width: 40vw;
+  border: solid 5px var(--baseyellow);
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px #000;
+}
+
+.scalc .screen {
+  width: 98%;
+  height: auto;
+  border-right: solid 5px var(--baseyellow);
+  padding: 20px 5px 5px 5px;
+  background-color: #222;
+  margin-bottom: 20px;
+  font-family: var(--calcmono);
+  font-size: 30px;
+  color: var(--baseyellow);
+  text-align: right;
+  overflow: hidden;
+}
+
+.scalc .button-layout {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.scalc .button {
+  height: auto;
+  padding: 8px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #111;
+  border: solid 2px var(--baseyellow);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scalc .button:active {
+  background-color: var(--baseyellow);
+  border-color: var(--baseyellow);
+  color: #000;
+}
+
+.scalc .digit {
+  background-color: #222;
+}
+
+.scalc .digit:active {
+  background-color: var(--lightyellow);
+  border-color: var(--lightyellow);
+}
+
+.scalc .submit {
+  background-color: #0c0;
+  border-color: #0c0;
 }
