@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/calcunow/static/css/main.47c640c2.css",
+    "main.js": "/calcunow/static/js/main.1e9cd005.js",
+    "index.html": "/calcunow/index.html",
+    "main.47c640c2.css.map": "/calcunow/static/css/main.47c640c2.css.map",
+    "main.1e9cd005.js.map": "/calcunow/static/js/main.1e9cd005.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47c640c2.css",
+    "static/js/main.1e9cd005.js"
+  ]
+}
