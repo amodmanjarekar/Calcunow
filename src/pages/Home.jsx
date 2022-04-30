@@ -12,13 +12,14 @@ export default function Home() {
           Welcome to Calcunow!<br /><br />
           What's new:
           <ul>
+            <li>30/04/22 - Working (almost)Scientific Calculator</li>
             <li>21/04/22 - Working (un)Scientific Calculator</li>
             <li>19/04/22 - Simple new header!</li>
           </ul>
         </div>
       </div>
       <div className="scalculator">
-        <h2>(un)Scientific Calculator</h2>
+        <h2>(almost)Scientific Calculator</h2>
         <SCalc />
       </div>
     </div>
