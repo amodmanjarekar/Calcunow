@@ -22,6 +22,9 @@ export default function Home() {
         <h2>(almost)Scientific Calculator</h2>
         <SCalc />
       </div>
+      <div className="footer">
+        Made with <span className="heart">♥</span> by <a href="https://github.com/amodmanjarekar" target="_blank">Amod Manjarekar</a>
+      </div>
     </div>
 
 </>);

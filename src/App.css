@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
   --baseyellow: #ec0;
   --lightyellow: #ffd;
   --calcmono: 'Source Code Pro', monospace;
+  --quiksand: 'Quicksand', sans-serif;
+}
+
+.body {
+  font-family: var(--quiksand);
 }
 
 .spacer {
@@ -127,4 +133,30 @@
 .scalc .submit {
   background-color: #0c0;
   border-color: #0c0;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--baseyellow);
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer .heart {
+  color: #f00;
+  font-size: 25px;
+}
+
+.footer a {
+  text-decoration: none;
+  background-color: #000;
+  padding: 0px 5px;
+  color: var(--baseyellow);
+}
+
+.footer a:hover {
+  background-color: var(--lightyellow);
+  color: #000;
 }
